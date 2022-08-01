@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  .back{
+      width: 100wh;
+      height: 100vh;
+      background-size: cover;
+      background-image: url('https://images.pexels.com/photos/4518879/pexels-photo-4518879.jpeg');
+  }
+  .allcenter{
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .content{
+      border-top: 2px solid rgb(8, 7, 66);
+      max-width: 100%;
+      padding: 20px 0px;
+  }
+  .Foodie h1{
+      font-size: 40px;
+      color: rgb(11, 22, 65);
+      font-family: cursive;
+      margin-bottom: 0px;
+  }
+  .Foodie p{
+      font-size: 15px;
+      color: rgb(11, 22, 65);
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;
+      margin-top: 1px;
+  }
+  #fill{
+      width: 100%;
+      height: 2.3rem;
+      border-radius: 5px;
+      font-size: 17px;
+      text-indent: 15px;
+      margin: 10px 0px;
+      background: rgba(255, 255, 255, 0.6);
+  }
+  input:is(:focus, :valid){
+      border-color:blue;
+      box-shadow: 0px 1px 6px rgb(30, 25, 25);
+  }
+  input:focus{
+      border-color: #fff;
+      box-shadow: 0px 1px 8px rgb(30, 25, 25);
+  }
+  .Forgot a{
+      font-size: 17px;
+      line-height: 25px;
+      color: rgb(10, 10, 138);
+  }
+  .login {
+      border: 2px solid aqua;
+      width: 100%;
+      text-align: center;
+      border-radius: 5px;
+      line-height: 30px;
+      margin: 30px 0px;
+      transition: 0.4s linear;
+      background-color: aqua;
+  }
+  .login:hover{
+      border-color:rgba(255, 255, 255, 0.656);
+      background-color: rgba(255, 255, 255, 0.656);
+  }
+  .login a{
+      font-size: 20px;
+      text-decoration: none;
+      color: rgb(10, 10, 138);
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .Account{
+      border: 2px solid rgba(240, 255, 255, 0.666);
+      text-align: center;
+      border-radius: 5px;
+      padding: 6px 30px;    
+      transition: 0.4s linear;
+      margin-right: 35px;
+      background-color: rgba(240, 255, 255, 0.666);
+  }
+  .Account:hover{
+      border-color: aqua;
+      background-color: aqua;
+  }
+  .Account a{
+      text-decoration: none;
+      color: rgb(10, 10, 138);
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  .signin{
+      border: 2px solid rgba(240, 255, 255, 0.666);
+      text-align: center;
+      border-radius: 5px;
+      padding: 6px 45px;  
+      transition: 0.4s linear;
+      background-color: rgba(240, 255, 255, 0.666);
+  }
+  .signin:hover{
+      border-color: aqua;
+      background-color: aqua;
+  }
+  .signin a{
+      text-decoration: none;
+      color: rgb(10, 10, 138);
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;   
+  }
+  .allcenter h3{
+      border-top: 2px solid rgb(8, 7, 66);
+      font-weight: 500;
+      padding-top: 8px;
+      font-size: 21px;
+      line-height: 50px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
