@@ -93,23 +93,23 @@
     </header>
     <section class="categories" id="About">
         <h2><span class="Our">Our</span> Categories</h2>
-        <div class="container">
+        <div class="container all_cate">
             <div class="row catagori">
-                <div class="col-md-3 ">
+                <div class="col-md-3 card_box">
                     <div class="cateimg">
                         <img src="https://images.pexels.com/photos/3473457/pexels-photo-3473457.jpeg" alt="">
                         <h3>Break Fasts</h3>
                         <p>Lorem ipsum dolor sit amet elit.Autem officiis voluptas,</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 card_box">
                     <div class="cateimg">
                         <img src="https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg" alt="">
                         <h3>Ice Creams</h3>
                         <p>Lorem ipsum dolor sit amet elit.Autem officiis voluptas,</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 card_box">
                     <div class="cateimg">
                         <img src="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg" alt="">
                         <h3>Sweets & Cake</h3>
@@ -126,7 +126,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 card_box">
                     <div class="pizza">
                         <img src="https://images.pexels.com/photos/1552642/pexels-photo-1552642.jpeg" alt="">
                         <h3>Pizza</h3>
@@ -147,10 +147,10 @@
     </section>
     <section class="MostPopular">
         <h2><span class="Our">Most</span> Popular <span class="Our">Foods</span></h2>
-        <div class="container">
+        <div class="container all_most all_cate">
             <div class="row">
-                <div class="col-md-3 ">
-                    <div class="img-text burder-card">
+                <div class="col-md-3 most_card">
+                    <div class="img-text burder-card foods-card">
                         <h4>$4-$10</h4>
                         <img src="https://images.pexels.com/photos/8411359/pexels-photo-8411359.jpeg" alt="popularImg">
                         <div class="Burger">
@@ -167,8 +167,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="img-text burder-card">
+                <div class="col-md-3 most_card">
+                    <div class="img-text burder-card foods-card">
                         <h4>$8-$20</h4>
                         <img src="https://images.pexels.com/photos/8753755/pexels-photo-8753755.jpeg" alt="popularImg">
                         <div class="Burger">
@@ -185,8 +185,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="img-text burder-card">
+                <div class="col-md-3 most_card">
+                    <div class="img-text burder-card foods-card">
                         <h4>$5-$10</h4>
                         <img src="https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg" alt="popularImg">
                         <div class="Burger">
@@ -198,13 +198,13 @@
                                 <i class="fa fa-star"></i>
                             </span>
                             <div class="order-popular">
-                                <a href="#order-item">Order Now</a>
+                                <a href="#order-item" >Order Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="img-text burder-card">
+                    <div class="img-text burder-card foods-card">
                         <h4>$6-$15</h4>
                         <img src="https://images.pexels.com/photos/1120464/pexels-photo-1120464.jpeg" alt="popularImg">
                         <div class="Burger">
@@ -224,7 +224,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 most_card">
                     <div class="img-text burder-card">
                         <h4>$2-$5</h4>
                         <img src="https://images.pexels.com/photos/8679435/pexels-photo-8679435.jpeg" alt="popularImg">
@@ -242,7 +242,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 most_card">
                     <div class="img-text burder-card">
                         <h4>$7-$12</h4>
                         <img src="https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg" alt="popularImg">
@@ -296,7 +296,7 @@
     </section>
     <section class="order-file" id="order-item">
         <h2 class="allOrder">Order <span class="now">Now</span></h2>
-        <div class="container ordercolor">
+        <div class="container ordercolor orderfit">
             <div class="row pexel">
                 <div class="col-md-6 delivery-img">
                     <img src="https://images.pexels.com/photos/4393426/pexels-photo-4393426.jpeg" alt="" width="100%"
@@ -306,11 +306,11 @@
                     <span>
                         <input type="text" class="name mtop" id="name" placeholder="Name">
                         <input type="text" class="name mtop" placeholder="Email">
-                    </span>
+                    </span><br>
                     <span>
                         <input type="number" id="phoneNo" class="name" placeholder="Phone Number">
                         <input type="text" id="foodname" class="name" placeholder="Food Name">
-                    </span>
+                    </span><br>
                     <div class="">
                         <textarea name="" id="address" class="textari" cols="20" rows="7"
                             placeholder="Address"></textarea>
@@ -325,7 +325,7 @@
     <footer>
         <div class="footer">
             <div class="container">
-                <div class="row">
+                <div class="row footer-item">
                     <div class="col-md-3">
                         <div class="Loction">
                             <h3 class="menu-head">Loction</h3>
@@ -351,7 +351,7 @@
                             <h3 class="menu-head">Social Media</h3>
                             <span class="fb-icon">
                                 <i class="fab fa-facebook" id="facebook"></i>
-                                <h4>facebook</h4>
+                                <h4>Facebook</h4>
                             </span>
                             <span class="fb-icon">
                                 <i class="fab fa-instagram" id="google"></i>

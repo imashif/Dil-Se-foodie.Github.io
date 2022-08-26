@@ -126,7 +126,7 @@ body{
 }
 .categories{
     max-width: 100wh;
-    height: 100vh;
+    /* height: 100vh; */
     background-color:cornsilk;
 }
 .categories h2{
@@ -134,9 +134,13 @@ body{
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-shadow: 1px 1px 3px rgb(73, 73, 214);
+}
+.all_cate{
+    padding-top: 5px;
+    padding-bottom: 50px;
 }
 .Our{
    color: rgb(247, 16, 16); 
@@ -150,7 +154,7 @@ body{
 }
 .cateimg  img{
     width: 100%;
-    height:  150px; 
+    height:  170px; 
     border-radius: 10px;
     transition: all 0.3s linear;
 }
@@ -182,7 +186,7 @@ body{
 }
 .pizza img{
     width: 100%;
-    height: 250px; 
+    height: 270px; 
     border-radius: 10px;
     transition: all 0.3s linear;
     z-index: 999;
@@ -208,7 +212,7 @@ body{
 }
 .MostPopular{
     max-width: 100wh;
-    height: 100vh;
+    /* height: 100vh; */
     margin-bottom: 0px;
     background-color:cornsilk;
 }
@@ -217,7 +221,7 @@ body{
     font-size: 45px;
     font-weight: 700;
     letter-spacing: 2px;
-    padding: 15px;
+    padding: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     text-shadow: 1px 1px 3px rgb(73, 73, 214);
 }
@@ -228,10 +232,14 @@ body{
     background-color: #efefef;
 }
 .img-text img{
-    width:100%; 
-    height:180px;
+    width: 100%; 
+    height: 230px;
     position: relative;
     border-radius: 6px 6px 0px 0px;
+}
+.foods-card img{
+    width: 100%; 
+    height: 200px;
 }
 .img-text h4{
     margin: 5px 10px;
@@ -258,6 +266,7 @@ body{
     margin-bottom: 0%;
 }
 .Burger .star{
+    font-size: 18px;
     word-spacing: 5px;
     color: rgb(180, 5, 5);
 }
@@ -265,7 +274,7 @@ body{
     padding: 0px 10px;
     margin: 6px auto;
     border: 2px solid rgb(252, 38, 38);
-    width: 140px;
+    max-width: 150px;
     padding-bottom: 3px;
     border-radius: 20px;
     background-color: rgb(252, 38, 38);
@@ -334,9 +343,12 @@ body{
 }
 .order-file{
     max-width: 100wh;
-    height: 100vh;
-    background-color:cornsilk;
+    /* height: 100vh; */
     transition: 0.2ms linear;
+}
+.orderfit{
+    margin-top: 25px;
+    margin-bottom: 120px;
 }
 .allOrder{
     text-align: center;
@@ -356,7 +368,7 @@ body{
     background-color: #efefef;
 }
 .pexel{
-    padding: 25px 15px;
+    padding: 40px 15px;
 }
 .delivery-img img{
     border-radius: 5px;
@@ -371,20 +383,16 @@ body{
     border-radius: 5px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.mtop{
-    margin-top: 25px;
-}
 #name{
     margin-right: 19px;
 }
 #phoneNo{
-    
     margin-right: 19px;
 }
 #address{
     width: 100%;
     font-size: 20px;
-    text-indent: 10px;
+    text-indent: 18px;
     border-radius: 5px;
     letter-spacing: 1px;
     margin-bottom: 20px;
@@ -409,7 +417,7 @@ body{
     width: 12rem;
     text-align: center;
     transition: 0.2s linear;
-    box-shadow: 1px 1px 10px #000;
+    box-shadow: 1px 1px 7px #000;
 }
 .mainOrder:hover{
     border-color: #fff;
@@ -524,67 +532,25 @@ body{
 .ashif{
     color: rgb(247, 16, 16); 
 }
-@media only screen and (max-width: 469px){
-    .topmenu{
-        width: 100%;
-        padding: 4px 10px 8px 10px;
-    }
-    .image1 img{
-        width: 60px; 
-        height: 16px;
-    }
-    .Foodie h1{
-        font-size: 26px;
-        font-weight: 700;
-    }
-    .order{
-        padding: 2px 10px 6px 10px;
-        line-height: 6px;
-        margin: 0px 4px;
-    }
-    .order a{
-        font-size: 11px;
-        font-weight: 400;
-    }
-    .login{
-        padding: 0px 8px 6px 8px;
-        line-height: 0px;
-        margin: 0px 3px;
-    }
-    .login a{
-        letter-spacing: 0.1px;
-        font-size: 8px;
-        font-weight: 400;
-    }
-    .sign{
-        margin-right: 3px; 
-     }
-     .categories h2{
-        padding: 12px;
-        font-size: 25px;
-    }
-    .cateimg  img{
-        max-width: 100%;
-        height: 80px; 
-    }
-    
-}
-@media only screen and (min-width: 469px) and (max-width: 767px){
+@media only screen and (max-width: 767px){ 
     .topmenu{
         width: 100%;
         padding: 5px 16px 10px 16px;
     }
+    .carousel-item{
+        object-fit: cover;
+    }
     .image1 img{
-        width: 90px; 
-        height: 19px;
+        width: 120px; 
+        height: 25px;
     }
     .login{
-        padding: 0px 7px 6px 7px;
+        padding: 0px 6px 7px 6px;
         line-height: 0px;
         margin: 0px 3px;
     }
     .login a{
-        letter-spacing: 0.3px;
+        letter-spacing: 0.2px;
         font-size: 9px;
         font-weight: 500;
     }
@@ -592,39 +558,372 @@ body{
         margin-right: 6px; 
      }
      .Foodie h1{
-        font-size: 42px;
+        font-size: 27px;
         font-weight: 700;
     }
     .order{
-        padding: 6px 16px;
-        line-height: 27px;
-        margin: 0px 6px;
+        padding: 0px 12px 4px 12px;
+        line-height: 40px;
+        margin: 0px 5px;
     }
     .order a{
         font-size: 14px;
         font-weight: 400;
     }
     .categories h2{
-        padding: 12px;
-        font-size: 35px;
+        padding: 14px;
+        font-size: 27px;
     }
     .cateimg  img{
         max-width: 100%;
-        height: 120px; 
+        height: 160px; 
+        object-fit: cover;
+    }
+    .cateimg h3{
+        padding: 10px 0 0 15px;
+        font-size: 18px;
+    }
+    .cateimg p{
+        font-size: 13px;
+        padding: 0px 15px 5px 15px;
+    }
+    .card_box{
+        margin-bottom: 25px;
+    }
+    .pizza img{
+        max-width: 100%;
+        height: 180px; 
+        object-fit: cover; 
+    }
+    .pizza h3{
+        padding: 10px 0 0 15px;
+        font-size: 18px;
+    }
+    .pizza p{
+        font-size: 13px;
+        padding: 0px 15px 5px 15px;
+    }
+    .MostPopular h2{
+        padding: 14px;
+        font-size: 27px;
+    }
+    .img-text img{
+        max-width: 100%;
+        height: 180px; 
+        object-fit: cover; 
+    }
+    .most_card{
+        margin-bottom: 25px;
+    }
+    .img-text h4{
+        font-size: 14px;
+    }
+    .Burger h3{
+        font-size: 18px;
+    }  
+    .Burger .star{
+        font-size: 12px;
+    }   
+    .order-popular{
+        padding: 0px 10px 4px 10px;
+        max-width: 110px;
+    }
+    .order-popular a{
+        font-size: 15px;
+    } 
+    .testi{
+        font-size: 27px;
+    }   
+    .content{
+        margin-top: 30px;
+        width: 80%;
+        padding: 18px;
+    }
+    .content p{
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+    .content h3{
+        font-size: 23px;
+    }
+    #quote{
+        font-size: 15px;
+        padding: 8px;
+    }
+    .allOrder{
+        font-size: 27px;
+    } 
+    .delivery-img img{
+        max-width: 100%;
+        max-height: 265px;
+        margin-bottom: 27px; 
+    }
+    .name{
+        width: 45.5%;
+        font-size: 16px;
+        text-indent: 13px;
+    }
+    #address{
+        font-size: 16px;
+        text-indent: 13px;
+        min-height: 130px;
+    }
+    .mainOrder{
+        width: 8rem;
+    }
+    .mainOrder a{
+        font-size: 18px;
+    }
+    .footer{
+        padding: 32px 0px;
+    }
+    .menu-head{
+        font-size: 26px;
+        padding-bottom: 5px;
+    }   
+    .Loction h5{
+        font-size: 16px;
+        margin-bottom: -1px;
+    } 
+    .fb-icon i{
+        font-size: 17px;
+        padding: 6px 7px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .fb-icon h4{
+        font-size: 16px;
+        padding: 7px 1px;
+    }
+    .Order-mail{
+        margin-bottom: 24px;
+    }
+    .Order-mail a{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .send-btn a{
+        font-size: 13px;
+        padding: 5px 20px;
+    }    
+    .Contact-Us h5{
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .desgin p{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .footer-item{
+        margin-left: 50px;
     }
 }
-@media only screen and (min-width: 767px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .carousel-item{
+        object-fit: cover;
+    }
+    .image1 img{
+        width: 130px; 
+        height: 38px;
+    }
     .Foodie h1{
         font-size: 58px;
         font-weight: 700;
     }
     .order{
-        padding: 6px 20px 9px 20px;
-        line-height: 28px;
+        padding: 4px 16px 6px 16px;
+        line-height: 35px;
         margin: 0px 6px;
     }
     .order a{
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
+    }
+    .categories h2{
+        padding: 14px;
+        font-size: 32px;
+    }
+    .cateimg  img{
+        max-width: 100%;
+        height: 160px; 
+        object-fit: cover;
+    }
+    .cateimg h3{
+        padding: 10px 0 0 10px;
+        font-size: 18px;
+    }
+    .cateimg p{
+        font-size: 14px;
+    }
+    .card_box{
+        margin-bottom: 25px;
+    }
+    .pizza img{
+        max-width: 100%;
+        height: 170px; 
+        object-fit: cover; 
+    }
+    .pizza h3{
+        padding: 10px 0 0 10px;
+        font-size: 20px;
+    }
+    .pizza p{
+        font-size: 14px;
+    }
+    .MostPopular h2{
+        padding: 14px;
+        font-size: 32px;
+    }
+    .foods-card img{
+        max-width: 100%;
+        height: 150px; 
+        object-fit: cover; 
+    }
+    .img-text img{
+        max-width: 100%;
+        height: 165px; 
+        object-fit: cover; 
+    }
+    .img-text h4{
+        font-size: 14px;
+    }
+    .Burger h3{
+        font-size: 18px;
+    }  
+    .Burger .star{
+        font-size: 12px;
+    }
+    .order-popular{
+        padding: 0px 8px 4px 8px;
+        max-width: 110px;
+    }
+    .order-popular a{
+        font-size: 15px;
+    }
+    .testi{
+        font-size: 32px;
+    }  
+    .content{
+        margin-top: 30px;
+        width: 80%;
+        padding: 20px;
+    }
+    .content p{
+        font-size: 14px;
+        line-height: 27px;
+        font-weight: 600;
+    }
+    .content h3{
+        font-size: 25px;
+    }
+    #quote{
+        font-size: 15px;
+        padding: 8px;
+    } 
+    .allOrder{
+        font-size: 32px;
+    } 
+    .delivery-img img{
+        max-width: 100%;
+        max-height: 410px;
+    }
+    .name{
+        width: 46%;
+        font-size: 16px;
+        text-indent: 13px;
+    }
+    #address{
+        font-size: 16px;
+        text-indent: 13px;
+        min-height: 170px;
+    }
+    .mainOrder{
+        width: 10rem;
+    }
+    .mainOrder a{
+        font-size: 19px;
+    }
+    .footer{
+        padding: 32px 0px;
+    }
+    .menu-head{
+        font-size: 26px;
+        padding-bottom: 5px;
+    }   
+    .Loction h5{
+        font-size: 15px;
+        margin-bottom: 2px;
+    } 
+    .fb-icon i{
+        font-size: 17px;
+        padding: 6px 7px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .fb-icon h4{
+        font-size: 16px;
+        padding: 7px 1px;
+    }
+    .Order-mail{
+        margin-bottom: 24px;
+    }
+    .Order-mail a{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .send-btn a{
+        font-size: 13px;
+        padding: 5px 20px;
+    }    
+    .Contact-Us h5{
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .desgin p{
+        font-size: 18px;
+        line-height: 50px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+    .Foodie h1{
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .order{
+        padding: 4px 16px 6px 16px;
+        line-height: 35px;
+        margin: 0px 6px;
+    }
+    .order a{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .content p{
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 600;
+    }
+    .name{
+        width: 47%;
+        font-size: 16px;
+        text-indent: 13px;
+    }
+    #address{
+        font-size: 16px;
+        text-indent: 13px;
+        min-height: 190px;
+    }
+}
+@media only screen and (min-width: 1198px) and (max-width: 1400px){
+    .name{
+        width: 46%;
+        font-size: 16px;
+        text-indent: 13px;
+    }
+    #address{
+        font-size: 16px;
+        text-indent: 13px;
+        min-height: 210px;
     }
 }
